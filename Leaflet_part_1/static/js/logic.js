@@ -44,8 +44,8 @@ d3.json(url).then(function (data) {
         const depth = coordinates[2]; // Get depth
 
         const circleMarker = {
-            radius: magnitude * 3, // Customize the radius based on magnitude
-            color: getDepthColor(depth), // Use the depth color function from your original code
+            radius: magnitude * 3, 
+            color: getDepthColor(depth), 
             fillOpacity: 1
         };
         const earthquakeMark = L.circleMarker([coordinates[1], coordinates[0]], circleMarker)
