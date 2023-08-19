@@ -26,10 +26,10 @@ The logic above code fetches earthquake data, processes it, creates circular mar
 ## code: 
 1. **Data extraction:** I used D3.js to get earthquake data from USGS and make sense of it.
 
-2. **Markers That Talk:** Each earthquake is a dot on the map. The bigger the dot, the bigger the quake!
+2. **Interacive Markers:** Each earthquake is a dot on the map. The bigger the dot, the bigger the quake!
 
-3. **Color Secrets:** I used different colors for different depths of earthquakes. It helps you see which ones are deeper.
+3. **Color:** I used different colors for different depths of earthquakes. It helps you see which ones are deeper.
 
-4. **Legend Guide:** I made a small box that tells you which color means what depth. So you're never confused!
+4. **Legend:** I made a small box that tells you which color means what depth. So you're never confused!
 
-5. **Map Wizardry:** I used Leaflet to make a map. It's like a big canvas where we put our earthquake markers.
+5. **Map:** I used Leaflet to make a map. It's like a big canvas where we put our earthquake markers.
