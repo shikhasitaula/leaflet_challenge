@@ -8,3 +8,25 @@ body,
 html {
   height: 100%;
 }
+
+/* CSS Styles for the Legend */
+.legend {
+  background-color: rgb(248, 238, 202); /* Background color to make the legend stand out */
+  padding: 10px; /* Spacing inside the legend */
+  border: 1px solid #f22929; /* Border for the legend */
+  font-size: 12px; /* Font size of the text in the legend */
+  line-height: 18px; /* Line height for better readability */
+  color: rgb(4, 4, 4); /* Text color in the legend */
+  width: 130px; /* Width of the legend */
+  box-shadow: 0 1px 2px rgba(135, 232, 7, 0.1); /* Shadow for the legend */
+}
+
+.legend i {
+  width: 18px; /* Width of the colored square */
+  height: 18px; /* Height of the colored square */
+  float: left; /* Float to the left to align with text */
+  margin-right: 8px; /* Spacing between the colored square and text */
+  opacity: 0.7; /* Opacity for a subdued appearance */
+}
+
+
